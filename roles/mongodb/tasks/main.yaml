@@ -1,4 +1,4 @@
-- name: Installing mongodb
+- name: Installing mongodb component
   ansible.builtin.yum:
     name: mongodb-org
     state: installed
